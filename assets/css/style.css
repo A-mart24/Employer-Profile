@@ -1,0 +1,25 @@
+.header {
+    background-color: aqua;
+    display: block;
+    margin: 5px;
+    float: left;
+    list-style-type: none;
+   
+}
+
+li {
+    float: right;
+    display: block;
+    padding: 12px;
+    color: hotpink;
+
+}
+
+.bottom-right{
+    position: absolute;
+    bottom: 8px;
+    right: 16px;}
+
+
+
+  
