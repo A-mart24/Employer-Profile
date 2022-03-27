@@ -1,25 +1,65 @@
-.header {
-    background-color: aqua;
-    display: block;
-    margin: 5px;
-    float: left;
-    list-style-type: none;
-   
+* {
+    margin: 0;
+    padding: 0;
 }
 
+}
+ul {
+    display: inline;
+
+}
 li {
-    float: right;
-    display: block;
-    padding: 12px;
-    color: hotpink;
+    display: inline;
+
+}
+body {
+    background-color: rgb(233, 10, 214);
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(64, 190, 240);
+    font-family: 'Times New Roman', Times, serif;
 
 }
 
-.bottom-right{
-    position: absolute;
-    bottom: 8px;
-    right: 16px;}
+
+.sub-header {
+    height: 15vh;
+    width: 100%;
+    background-image: url("https://s3-eu-west-1.amazonaws.com/timelab-wp-media/satmission/2015/07/thin-header-1920x250.jpg");
+    line-height: 100px
 
 
+}
+.text-right {
+    text-align: right;
+    padding: 20px;
 
-  
+}
+h1 {
+    text-align: left;
+    color: white;
+}
+h2 {
+    text-align: left;
+    color: white;
+}
+h4 {
+    text-align: right;
+    text-align: end;
+    color: white;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+p {
+    color: white;
+}
+a:hover {
+color: hotpink;
+}
